@@ -1,0 +1,98 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<h2>Detailstudent</h2>-->
+<!--<form action="register" method="post">-->
+<!--    {% csrf_token %}-->
+<!--    <input type="text" name="first_name" placeholder="Enter first name"><br>-->
+<!--    <input type="text" name="last_name" placeholder="Enter last name"><br>-->
+<!--    <input type="email" name="email" placeholder="Enter email address"><br>-->
+<!--    <input type="radio" name="gender" placeholder="male"><br>-->
+<!--    <input type="radio" name="gender" placeholder="female"><br>-->
+<!--    <input type="password" name="password1" placeholder="Confirm password"><br>-->
+<!--    <input type="Submit">-->
+<!--</form>-->
+
+<!--</body>-->
+<!--</html>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Student Detail</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Detail student</h2>
+  <form class="form-horizontal">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">Name:</label>
+      <div class="col-sm-4">
+        <input type="text" class="form-control" placeholder="Enter Name">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2">Mobile:</label>
+      <div class="col-sm-4">
+        <input type="number" class="form-control"  placeholder="Enter 10 digits">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2">Alternate Mobile:</label>
+      <div class="col-sm-4">
+        <input type="number" class="form-control">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">Gender:</label>
+      <div class="col-sm-4">
+        <select class="form-control">
+<option value="male">Male</option>
+<option value="female">Female</option>
+</select>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">Age:</label>
+      <div class="col-sm-4">
+        <input type="number" class="form-control" id="pwd" placeholder="In Years">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">Date of Dog Bite:</label>
+      <div class="col-sm-4">
+        <input type="date" class="form-control">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">Credit Card Number:</label>
+      <div class="col-sm-4">
+        <input type="date" class="form-control">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <div class="checkbox">
+          <label><input type="checkbox"> Remember me</label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
